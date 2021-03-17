@@ -21,7 +21,7 @@
 .text{
   font-size: 100px;
   font-weight: bolder;
-    color:#16a085;
+    color:#0d1010;
 
 }
     .footer{
@@ -34,8 +34,9 @@
     z-index:0;
 }
 
+
 .navbar-dark {
-     background-color: #1dd1a1;
+     background-color: #00cecb;
 }
 .carousel {
   background: #512DA8; }
@@ -48,8 +49,9 @@
     .carousel .carousel-item img {
 
       position: absolute;
-      top: 0;
+      top: 70;
       left: 0;
+      width:inherit;
       min-height: 300px; }
 
       .navbar-nav{
@@ -59,4 +61,16 @@
       .nav-item{
       margin-right: 50px;
       margin-left: inherit;
+      }
+      .modal-header{
+          background-color:  #00cecb;
+          color: floralwhite ;
+
+          .close{
+              color: floralwhite;
+          }
+
+      }
+      .modal-body{
+          background:#fffdfd;
       }
