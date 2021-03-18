@@ -10,3 +10,7 @@ $(document).ready(function(){
         $('#ResModal').modal('show')
     });
 });
+
+$(document).ready(function(){
+      $("mycarousel").carousel( { interval: 2000} );
+});
